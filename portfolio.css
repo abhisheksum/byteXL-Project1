@@ -1,0 +1,128 @@
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#number{
+    display: flex;
+    justify-content: space-around;
+}
+#bigbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(213, 233, 242);
+}
+#circle{
+height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+    }
+}
+.name{
+    font-weight: bold;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+} 
+.colour{
+    color: blue;
+}
+.hero{
+    background-color: blue;
+    color: white;
+}
+#About{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+#container{
+    flex: 2;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+.detail{
+   border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    border-radius: 16px;
+    
+}
+.about-content{
+    flex: 3;
+    min-width: 0;
+}
+.box{
+     border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    border-radius: 16px;
+}
+.skill-boxes{
+    flex: 2;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+#main-skills{
+    background-color: rgb(213, 233, 242);
+
+}
+.project-boxes{
+    flex: 2;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.cafe{
+       border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    border-radius: 16px;
+     width: 300px;
+     overflow: hidden;
+}
+.cafe a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.cafe img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+#academic{
+    background-color: rgb(213, 233, 242);
+}
+#contact-details{
+    display: flex;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
